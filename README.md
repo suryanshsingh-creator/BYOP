@@ -1,2 +1,16 @@
-# BYOP
-Hello everyone, here I have made a finance predictor which predicts your future expenses based on your previous expenses. I've used the basic feature of machine learning and some python libraries to make this project perform perfectly. The accuracy is not going to be 100% because at the end, it's up to you about where you want to spend your money.
+# 💰 Smart Finance Tracker (AI/ML BYOP)
+
+## 📌 Problem Statement
+Managing student finances is difficult. This project uses **Machine Learning** to automate the process of categorizing expenses and forecasting future monthly budgets to prevent overspending.
+
+## 🤖 AI/ML Implementation
+- **Classification**: A `RandomForestClassifier` identifies the category (Food, Bills, etc.) based on the amount and vendor.
+- **Regression**: A `LinearRegression` model analyzes monthly trends to predict next month's total expenditure.
+
+## 🛠️ Setup
+1. Install requirements: `pip install -r requirements.txt`
+2. Run the main script: `python main.py`
+
+## 📊 Results
+- **Auto-Categorization**: Successfully identifies recurring vendors.
+- **Visuals**: Generates a `spending_chart.png` to show a breakdown of expenses.
